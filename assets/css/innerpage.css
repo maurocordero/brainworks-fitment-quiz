@@ -14,28 +14,28 @@ hr {
 }
 
 .inner-page .consulting {
-    border: 0px;
-    margin-top: 20px;
-    width: 100%;
-    /* min-height: 80vh; */
-    /* height: 87vh; */
-    background-color: #931a2e;
-    position: relative;
+  border: 0px;
+  margin-top: 20px;
+  width: 100%;
+  /* min-height: 80vh; */
+  /* height: 87vh; */
+  background-color: #931a2e;
+  position: relative;
 }
 
 .inner-page .consulting h1 {
-    font-size: 53px;
-    font-weight: 700;
-    text-align: left;
-    color: #fff;
-    width: 50vw;
+  font-size: 53px;
+  font-weight: 700;
+  text-align: left;
+  color: #fff;
+  width: 50vw;
 }
 
 .inner-page .consulting p {
-    text-align: left;
-    font-size: 20px;
-    font-weight: 550;
-    color: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
 }
 
 .p-4 {
@@ -47,17 +47,17 @@ hr {
 }
 
 .consulting .container {
-    height: calc(80vh + 50px);
-    display: flex;
-    align-items: center;
+  height: calc(80vh + 50px);
+  display: flex;
+  align-items: center;
 }
 
 .hero-img {
-    margin-top: 70px;
-    z-index: 5;
-    position: absolute;
-    height: 80vh;
-    width: 100%;
+  margin-top: 70px;
+  z-index: 5;
+  position: absolute;
+  height: 80vh;
+  width: 100%;
 }
 
 .hero-img img {
@@ -87,7 +87,6 @@ hr {
 }
 
 @media (max-width: 992px) {
-  
   .inner-page .consulting h1 {
     font-size: 30px;
     font-weight: 700;
@@ -114,49 +113,48 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .hero-img {
+    margin-top: 20px;
+    height: 65vh;
+    overflow: auto;
+  }
 
-    .hero-img {
-      margin-top: 20px;
-      height: 65vh;
-      overflow: auto;
-    }
-    
-    .hero-img img {
-      height: 50%;
-      right: 0;
-      position: absolute;
-      margin-top: 0;
-    }
+  .hero-img img {
+    height: 50%;
+    right: 0;
+    position: absolute;
+    margin-top: 0;
+  }
 
-    .consulting .container {
-        padding-top: 55px;
-        height: 65vh;
-        display: flex;
-        align-items:flex-start;
-    }
+  .consulting .container {
+    padding-top: 55px;
+    height: 65vh;
+    display: flex;
+    align-items: flex-start;
+  }
 
-    .inner-page .consulting .para {
-        width: 85vw;
-    }
+  .inner-page .consulting .para {
+    width: 85vw;
+  }
 
-    .inner-page .consulting h1 {
-        font-size: 30px;
-        line-height: 32px;
-        font-weight: 600;
-        text-align: left;
-        color: #fff;
-    }
-    
-    .inner-page .consulting p {
-        text-align: left;
-        font-size: 20px;
-        font-weight: 400;
-        color: #fff;
-    }
+  .inner-page .consulting h1 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+  }
 
-    .strip .consulting .container {
-      height: 120px !important;
-    }
+  .inner-page .consulting p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .strip .consulting .container {
+    height: 120px !important;
+  }
 }
 
 .services .container .section-title p {
@@ -246,7 +244,7 @@ hr {
   padding-right: 0;
 }
 
-.icon-box .row .col-7{
+.icon-box .row .col-7 {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -296,7 +294,6 @@ hr {
   margin-bottom: 10px;
 }
 
-
 .recruitment-text .row .content-item span {
   display: inline;
   font-size: 15px;
@@ -336,12 +333,12 @@ hr {
 
 .selection-process .icon-pills::before {
   content: "";
-	display: block;
-	width: 100%;
-	height: 1px;
-	background: #000;
-	position: relative;
-	top: 45px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  position: relative;
+  top: 45px;
 }
 
 .selection-process .nav-item > a > span > .bi {
@@ -353,10 +350,10 @@ hr {
 
 .selection-process .nav-item h5 {
   color: #000;
-	font-size: 15px;
-	font-weight: 600;
-	display: block;
-	margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
 }
 
 .selection-process .nav-pills a {
@@ -365,14 +362,14 @@ hr {
 
 .selection-process .nav-item .bi::after {
   content: "";
-	display: inline-block;
-	width: 7px;
-	height: 7px;
-	border-radius: 50%;
-	position: relative;
-	background: #000;
-	top: 41px;
-	right: 20px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: relative;
+  background: #000;
+  top: 41px;
+  right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -461,7 +458,7 @@ hr {
 #quiz button:hover {
   border: 50%;
   background: #931a2e;
-  color: #FFF;
+  color: #fff;
 }
 
 #quiz button:disabled {
@@ -508,7 +505,7 @@ hr {
   min-height: 50px;
 }
 
-#question input[type=radio] {
+#question input[type="radio"] {
   display: none;
 }
 
@@ -532,7 +529,7 @@ hr {
   color: #fff;
 }
 
-#question input[type=radio]:checked + label {
+#question input[type="radio"]:checked + label {
   background: #931a2e;
   color: #fff;
   transition: all 200ms ease-in-out;
@@ -542,14 +539,14 @@ hr {
   margin-right: 12px !important;
   display: block;
   width: 56% !important;
-  padding: 7px 20px; 
+  padding: 7px 20px;
   font-size: 17px !important;
   border-radius: 30px !important;
 }
 
 #quiz-retry-button {
   display: inline;
-  padding: 5px 20px; 
+  padding: 5px 20px;
   font-size: 20px !important;
   border: 2px solid #931a2e;
   border-radius: 30px !important;
@@ -565,14 +562,14 @@ hr {
   justify-content: center;
   align-items: center;
 
-  background: rgba( 255, 255, 255, 0.45 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #quiz-results .result {
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   background-color: #931a2e;
   border-radius: 20px;
   display: flex;
@@ -621,7 +618,7 @@ hr {
   margin: 0 !important;
   display: inline;
   background-color: transparent !important;
-  color: #fff !important; 
+  color: #fff !important;
   font-size: 40px !important;
   opacity: 1;
 }
@@ -670,7 +667,7 @@ hr {
 
   .vertical-line {
     display: none;
-  }  
+  }
 
   .navbar .dropdown i {
     font-size: 20px !important;
@@ -689,7 +686,7 @@ hr {
   .experience-box {
     display: flex !important;
     flex-direction: column-reverse !important;
-  }  
+  }
 
   .about .name {
     margin-top: 10px;
@@ -706,4 +703,3 @@ hr {
     padding-right: 0 !important;
   }
 }
-
